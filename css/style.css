@@ -1,0 +1,181 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Nav - (MENU) */
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+}
+
+#nav li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #555555;
+}
+
+.logo {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 14px;
+}
+
+/* Content */
+.content {
+  min-height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.content .top-news {
+    width: 100%;
+}
+
+.content .top-news .top-label h2 {
+    border-bottom: 2px solid #ff0000; 
+}
+
+.content .top-news .top-new {
+    height: 100%;
+    width: 100%;
+}
+
+.content .top-news .top-new iframe {
+    min-height: 500px;
+    width: 100%;
+    border: none;
+}
+
+.content .content-inside .news {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content .news .top-label h2 {
+    border-bottom: 2px solid #ff0000; 
+}
+
+.content .content-inside .news .new {
+    height: 500px;
+    width: 32%;
+    margin: 6px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.content .content-inside .news .new .new-img {
+    width: 100%;
+    height: 200px;
+}
+
+.content .content-inside .news .new .new-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .content-inside .news .new span {
+    font-size: 25px;
+    min-height: 80px;
+    display: block;
+    text-align: justify;
+}
+
+.content .content-inside .news .new span a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.content .content-inside .news .new p {
+    text-align: justify;
+    font-size: 12px;
+    min-height: 200px;
+}
+
+.content .content-inside .news .new a {
+    float: right;
+    display: block;
+    min-height: 10px;
+}
+
+/* About */
+.about-left {
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.about .about-img {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.about .about-img img {
+    width: 20%;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.about .about-name {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.about .about-name span img {
+    width: 2%;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+}
+
+/* Fonts */
+.fonts .fonts-img {
+    text-align: center;
+}
+
+.fonts .fonts-img img {
+    width: 100px;
+}
+
+/* Footer */
+footer {
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+}
+
+footer span {
+    padding: 16px;
+    color: #ffffff;
+}
